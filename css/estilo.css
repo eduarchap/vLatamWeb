@@ -1,0 +1,186 @@
+div#imagenPrincipal{
+    width:50%;
+    height:700px;     
+    background: linear-gradient( rgba(169,36,97,0.60), rgba(202,114,49,0.60) ), url(../imagenes/fondo_principal.png) no-repeat top left fixed;  
+    border-radius: 0px 50px 380px 0px;  
+    border: steelblue solid 1px;
+    float: left;
+    position: relative;
+}
+div#imagenSecundaria{
+    width:50%;
+    height:700px;           
+    background: url(../imagenes/fondo_secundario.png) no-repeat center right fixed;                  
+    float: right;        
+    position: relative;
+    float: right;        
+}
+td#tituloQuienesSomos{
+    width:100%;
+    height:50px;         
+    background: linear-gradient(to right, rgb(169,36,97),rgb(172, 78, 123) );  
+    font-family:sans-serif;
+    font-size: 260%;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 10px;
+    color: rgb(255,255,255);
+}
+td#espacioBlanco{
+    width:100%;
+    height:35px;         
+    background: rgb(255,255,255);  
+}
+tr#textoQuienesSomos{        
+    background: linear-gradient(to right, rgb(169,36,97),rgb(172, 78, 123) );
+}
+td#parrafo{
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(255,255,255);         
+}
+td#tituloNuestrosClientes{
+    width:100%;
+    height:50px;         
+    background: rgb(255,255,255);  
+    font-family:sans-serif;
+    font-size: 260%;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 10px;
+    color: rgb(141, 141, 141);
+    text-align: center;
+}
+td#logo_1{
+    padding-left: 100px;    
+}
+td#logo_3{
+    padding-right: 100px;    
+}
+img#clientes{
+    max-width: 350px;
+    height: auto;
+}
+
+td#seccionPaises{
+    width:100%;    
+}
+td#tituloPaises{
+    width:100%;
+    height:50px;         
+    background: rgb(255,255,255);  
+    font-family:sans-serif;
+    font-size: 260%;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 10px;
+    color: rgb(141, 141, 141);
+    text-align: center;
+}
+td#banderaIzquierda{
+    padding-left: 100px;    
+}
+td#banderaDerecha{
+    padding-right: 100px;    
+}
+img#banderas{
+    max-width: 300px;
+    height: auto;
+}
+
+
+table#seccionContacto{
+    width:100%;       
+}
+td#tituloOficinas{ 
+    width:50%;      
+    background: linear-gradient(rgb(202,114,49),rgb(202, 114, 49) );
+    color: rgb(255,255,255);
+    font-family:sans-serif;
+    font-size: 260%;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;            
+}
+td#tituloContacto{ 
+    width:50%;      
+    background: linear-gradient(rgb(202,114,49),rgb(202, 114, 49) );
+    color: rgb(255,255,255);
+    font-family:sans-serif;
+    font-size: 260%;
+    font-weight: bold;    
+    padding-top: 10px;    
+    text-align: center;       
+}
+td#contenidoOficinas{ 
+    width:50%;      
+    background: linear-gradient(rgb(202,114,49),rgb(202, 114, 49) );
+    color: rgb(255,255,255);
+    font-family:sans-serif;
+    font-size: 100%;
+    font-weight: bold;    
+    padding-top: 10px;
+    padding-left: 80px;        
+}
+td#contenidoContacto{ 
+    width:50%;      
+    background: linear-gradient(rgb(202,114,49),rgb(202, 114, 49) );
+    color: rgb(255,255,255);
+    font-family:sans-serif;
+    font-size: 100%;
+    font-weight: bold;    
+    padding-top: 10px;
+    padding-right: 80px;        
+}
+
+button#botonEnviar{ 
+    background: rgb(212, 212, 212); 
+    color: rgb(29, 29, 29);
+    margin-top: 10px;             
+    border: steelblue solid 1px;
+}
+
+
+div#imagenPrincipalvLatamERP{
+    width:100%;
+    height:400px;     
+    background: linear-gradient( rgba(169,36,97,0.40), rgba(202,114,49,0.40) ), url(../imagenes/fondo_vlatamerp.png) no-repeat top center;      
+    float: center;
+    position: relative;     
+}
+
+
+table#seccionFuncionalidad{
+    width:100%;       
+}
+td#tituloVacio{
+    width:50%;  
+    font-family:sans-serif;
+    font-size: 260%;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;        
+}
+td#tituloDescripcion{
+    width:50%;
+    font-family:sans-serif;
+    font-size: 260%;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-top: 10px;          
+}
+
+td#contenidoFoto{
+    width:50%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+td#contenidoDescripcion{
+    width:50%;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: justify;
+    font-size: 150%;
+}
+
