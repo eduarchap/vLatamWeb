@@ -156,6 +156,33 @@
 
 
 <script>
+
+function enviarCorreo( ){
+        
+        var correo   = document.getElementById("email").value;
+        var telefono = document.getElementById("telefono").value;
+        var pregunta = document.getElementById("pregunta").value;
+       
+        var data = JSON.stringify({
+          "destinatario": "ventas@vlatamweb.com",
+          "asunto": "Nuevo comentario de " + correo,
+          "Cuerpo": ("Correo " + correo + "\nTelefono " + telefono + "\nPregunta " + pregunta)
+        });
+      
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "https://hook.us1.make.com/9py277i1s1oa34fcteuul0oo6uqpwd3q", false);
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.send(data);
+
+        var retorno = xhr.responseText;
+        if( retorno == "Accepted" ){
+            alert("Tu pregunta ha sido enviada a nuestro equipo... en breve nos colocaremos en contacto contigo");
+        }else{
+            alert("El mail no pudo ser enviado");
+        }
+  }
+
+
     (function() {
       
       // These are the constraints used to validate the form
@@ -217,7 +244,7 @@
 
       function showSuccess() {
         // We made it \:D/
-        alert("Tu pregunta ha sido enviada a nuestro equipo... en breve nos colocaremos en contacto contigo");
+        enviarCorreo();  
       }
     })();
   </script>
